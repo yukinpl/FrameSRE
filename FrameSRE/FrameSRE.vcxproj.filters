@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{60aeea7e-5c65-4fcb-94e3-e37b41fd81fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pch">
+      <UniqueIdentifier>{ca3a9cc1-cced-4e32-9dc5-92e6db515306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\res">
+      <UniqueIdentifier>{a0f6777e-31ca-4129-ab07-fa6d2326f91e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app">
+      <UniqueIdentifier>{01ef72bc-33c3-4105-a05c-5313081cb59f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dlg">
+      <UniqueIdentifier>{d267c6a1-79e1-44bc-864f-025952b21c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\net">
+      <UniqueIdentifier>{ddbb128a-5ee9-42b2-b7ac-2916364f4503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\fs">
+      <UniqueIdentifier>{3606612e-0582-448e-93eb-b6f8e8fa62e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>src\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>src\app</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>src\dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>src\res</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>src\res</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>src\res</Filter>
+    </ClInclude>
+    <ClInclude Include="NetW.h">
+      <Filter>src\net</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>src\net</Filter>
+    </ClInclude>
+    <ClInclude Include="WireSharkFileDlg.h">
+      <Filter>src\dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="fsHeader.h">
+      <Filter>src\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="fspHeader.h">
+      <Filter>src\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="byteOrder.h">
+      <Filter>src\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameHeader.h">
+      <Filter>src\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="IpV4Header.h">
+      <Filter>src\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="UdpHeader.h">
+      <Filter>src\fs</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>src\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>src\app</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>src\dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="NetW.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>src\net</Filter>
+    </ClCompile>
+    <ClCompile Include="WireSharkFileDlg.cpp">
+      <Filter>src\dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="fsHeader.cpp">
+      <Filter>src\fs</Filter>
+    </ClCompile>
+    <ClCompile Include="fspHeader.cpp">
+      <Filter>src\fs</Filter>
+    </ClCompile>
+    <ClCompile Include="byteOrder.cpp">
+      <Filter>src\fs</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameHeader.cpp">
+      <Filter>src\fs</Filter>
+    </ClCompile>
+    <ClCompile Include="IpV4Header.cpp">
+      <Filter>src\fs</Filter>
+    </ClCompile>
+    <ClCompile Include="UdpHeader.cpp">
+      <Filter>src\fs</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\FrameSRE.ico">
+      <Filter>src\res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FrameSRE.rc">
+      <Filter>src\res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\FrameSRE.rc2">
+      <Filter>src\res</Filter>
+    </None>
+  </ItemGroup>
+</Project>
